@@ -40,7 +40,6 @@ function create_order( $products, $user_id, $city, $street ) {
 			//  формируем заказ
 			foreach ( $products as $product ) {
 
-
 				// заполняем заказ товарами
 
 				$product_id   = (int) $product['id'];
@@ -62,9 +61,7 @@ function create_order( $products, $user_id, $city, $street ) {
 						continue;
 					}
 
-
 				}
-
 
 			}
 			// задаем адрес заказа
